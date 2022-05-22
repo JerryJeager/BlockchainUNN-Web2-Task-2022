@@ -1,0 +1,513 @@
+.main {
+  /* background: linear-gradient(270deg, rgba(8, 28, 5, 1) 22%, rgba(46, 94, 17, 1) 80%, rgba(91, 190, 18, 1) 100%); */
+  /* background: #ccc; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: auto;
+}
+#first {
+  width: 100%;
+  height: auto;
+  background: #ccc;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  height: 3000px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#headerimage {
+  width: 340px;
+  height: 150px;
+  position: relative;
+  right: 20px;
+  /* max-width: 100%; */
+}
+#header {
+  /* width: 240px;
+    height: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  left: 22px;
+}
+#navigation {
+  color: rgba(46, 94, 17, 1);
+  font-size: 15px;
+  display: block;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+}
+#firstimage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+#head {
+  font-family: "Inconsolata", monospace;
+  color: rgb(8, 28, 5);
+  font-size: 23px;
+  text-align: center;
+}
+#aboutblockchainunn {
+  width: 100%;
+  height: auto;
+  background: rgb(8, 28, 5);
+  color: #eee;
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+#ouraim {
+  background: rgb(8, 28, 5);
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+#ouraimt {
+  width: 300px;
+  /* display: flex; */
+  margin: 0 auto;
+  font-family: "Roboto Flex", sans-serif;
+  color: #eee;
+}
+#blockchainconference {
+  background: rgb(8, 28, 5);
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: #eee;
+}
+#abouthead {
+  color: rgb(220, 255, 234);
+  font-size: 28px;
+  text-align: center;
+}
+#blockchainunn {
+  width: 300px;
+  /* display: flex; */
+  margin: 0 auto;
+  font-family: "Roboto Flex", sans-serif;
+}
+#partners {
+  background: rgb(8, 28, 5);
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: #eee;
+}
+#gallery {
+  display: flex;
+  height: 299px;
+}
+#gallery1 {
+  /* display: flex;
+    height: 299px;
+    width: 100%; */
+  display: flex;
+  height: 200px;
+  width: 340px;
+}
+.secondimage {
+  /* width: 50%;
+        max-width: 100%;
+        width: 22px;
+        height: 299px; */
+  /* width: 50%; */
+  border-radius: 10px;
+  position: relative;
+  left: 5px;
+  max-width: 100%;
+}
+.thirdimage {
+  /* width: 50%;
+        max-width: 100%;
+        width: 140px;
+        height: 199px; */
+  width: 50%;
+  position: relative;
+  left: 5px;
+  border-radius: 10px;
+}
+#fourthimage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+#galleryf {
+  width: 290px;
+  height: auto;
+  margin: 0 auto;
+}
+#fifthimage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+/* font-family: 'Source Code Pro',
+monospace; */
+footer {
+  background: #aaa;
+  width: 100%;
+  height: auto;
+  position: relative;
+  /* top: 20px; */
+  height: 300px;
+
+  /* height: 130px; */
+}
+#contactus {
+  text-align: center;
+}
+
+#companylogo {
+  width: 100%;
+  height: 140px;
+  display: flex;
+}
+.sponsor1 {
+  width: 70%;
+  max-width: 100%;
+  height: 70px;
+  width: 300px;
+  position: relative;
+  right: 50px;
+}
+.sponsor2 {
+  width: 50%;
+  height: 40px;
+  width: 30%;
+  max-width: 100%;
+  position: relative;
+  right: 60px;
+  top: 23px;
+  /* height: 100px; */
+}
+#companylogo2 {
+  width: 100%;
+  height: 140px;
+  display: flex;
+}
+.sponsor3 {
+  width: 50%;
+  height: 90px;
+  width: 30%;
+  max-width: 100%;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  left: 30px;
+  top: 15px;
+}
+.sponsor4 {
+  width: 70%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 57px;
+  left: 50px;
+}
+#founders {
+  background: rgb(8, 28, 5);
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: #eee;
+}
+#team {
+  background: rgb(8, 28, 5);
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: #eee;
+}
+.footerimage {
+  width: 140px;
+  height: 80px;
+  position: relative;
+  /* right: 20px; */
+}
+#copyright {
+  text-align: center;
+}
+.footernav {
+  display: block;
+  text-decoration: none;
+  color: rgba(8, 28, 5, 1);
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+.lastlink {
+  color: rgba(8, 28, 5, 1);
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+.lastlink2{
+  color: rgba(8, 28, 5, 1);
+  display: inline;
+  text-align: center;
+   text-decoration: none;
+   font-size: 14px;
+}
+#lastlink {
+  margin: 0 auto;
+  display: inline;
+  display: flex;
+  justify-content: center;
+}
+#twitter {
+  height: 15px;
+  width: 14px;
+  border-radius: 50%;
+}
+#telegram {
+  height: 15px;
+  width: 14px;
+  border-radius: 10px;
+}
+#instagram {
+  height: 15px;
+  width: 14px;
+  border-radius: 5px;
+}
+#facebook {
+  height: 15px;
+  width: 14px;
+}
+#sociallink {
+  display: flex;
+  justify-content: center;
+}
+.founders {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  max-width: 100%;
+  width: 150px;
+  height: 150px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(163, 248, 181);
+}
+#foundersblockchain {
+  display: flex;
+  justify-content: center;
+}
+#fname {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Roboto Flex", sans-serif;
+  color: #ccc;
+  font-weight: bold;
+}
+#fabout {
+  text-align: center;
+  width: 300px;
+  position: relative;
+  left: 40px;
+}
+.fsociallogo {
+  height: 15px;
+  width: 14px;
+  border-radius: 50%;
+}
+.fsociallogo2 {
+  height: 15px;
+  width: 14px;
+  border-radius: 3px;
+  position: relative;
+  left: 7px;
+}
+#fsocial {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  #headerimage {
+    width: 460px;
+    height: 250px;
+  }
+  #navigation {
+    font-size: 19px;
+  }
+  #head {
+    font-size: 30px;
+  }
+  #abouthead {
+    font-size: 45px;
+  }
+  #blockchainunn {
+    font-size: 23px;
+    font-family: "Roboto Flex", sans-serif;
+    width: 530px;
+  }
+  #aboutblockchainunn {
+    width: 100%;
+    height: auto;
+    background: rgb(8, 28, 5);
+    color: #eee;
+  }
+  #companylogo {
+    width: 100%;
+    height: 240px;
+    display: flex;
+  }
+  .sponsor1 {
+    height: 120px;
+    width: 400px;
+  }
+  .sponsor2 {
+    height: 70px;
+    width: 180px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+  }
+  #companylogo2 {
+    width: 100%;
+    height: 140px;
+    display: flex;
+  }
+  .sponsor3 {
+    width: 220px;
+    height: 70px;
+    position: relative;
+    left: 50px;
+    top: 15px;
+  }
+  .sponsor4 {
+    width: 360px;
+    height: 450px;
+    position: relative;
+    bottom: 180px;
+    left: 140px;
+  }
+  #aboutblockchainunn {
+    width: 680px;
+  }
+  #ouraim {
+    width: 680px;
+  }
+  #ouraimt {
+    width: 530px;
+    font-size: 23px;
+  }
+  #blockchainconference {
+    width: 680px;
+    font-size: 23px;
+  }
+  #gallery1 {
+    margin: 0 auto;
+    width: 500px;
+  }
+  .secondimage {
+    height: auto;
+    width: 220px;
+    position: relative;
+    right: 20px;
+  }
+  .thirdimage {
+    height: auto;
+    width: 200px;
+    position: relative;
+    left: 50px;
+  }
+  #galleryf {
+    width: 390px;
+    height: auto;
+    margin: 0 auto;
+  }
+  #partners {
+    width: 680px;
+    font-size: 23px;
+  }
+  #founders {
+    width: 680px;
+    font-size: 23px;
+  }
+  .founders {
+    width: 250px;
+    height: 250px;
+    border-width: 5px;
+  }
+  #fname {
+    font-size: 26px;
+  }
+  #fabout {
+    font-size: 23px;
+    position: relative;
+    left: 200px;
+  }
+  .fsociallogo {
+    height: 25px;
+    width: 24px;
+  }
+  .fsociallogo2 {
+    height: 25px;
+    width: 24px;
+  }
+  #team {
+    width: 680px;
+    font-size: 23px;
+  }
+  #head {
+    font-size: 38px;
+  }
+  #navigation {
+    font-size: 25px;
+  }
+  .footerimage {
+    width: 240px;
+    height: 150px;
+  }
+  .footernav {
+    font-size: 19px;
+  }
+  footer {
+    height: 430px;
+  }
+  #twitter {
+    height: 25px;
+    width: 24px;
+  }
+  #telegram {
+    height: 25px;
+    width: 24px;
+  }
+  #instagram {
+    height: 25px;
+    width: 24px;
+  }
+  #facebook {
+    height: 25px;
+    width: 24px;
+  }
+  .lastlink {
+    font-size: 25px;
+  }
+  .lastlink2{
+    font-size: 25px;
+  }
+  #copyright {
+    font-size: 19px;
+  }
+}
